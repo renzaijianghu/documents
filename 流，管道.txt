@@ -1,0 +1,4 @@
+将输出内容指向某文件：  ls -rt > a.txt
+给某命令输入数据：   mysql -s -N  --password='123456' --host='localhost' < a.sql
+如果想动态输入内容  get_sql | mysql -s -N  --password='123456' --host='localhost'  
+get_sql 为自定义shell函数
